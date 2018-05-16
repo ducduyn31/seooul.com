@@ -1,0 +1,42 @@
+@import "../../../styles";
+
+.topic {
+  font-family: "Myriad Pro Bold";
+  font-size: 45px;
+}
+
+.title {
+  margin-left: -50px;
+  background-color: #fff;
+}
+
+p {
+  width: 410px;
+}
+
+.main-info {
+  a {
+    font-style: italic;
+    font-family: "Myriad Pro SemiBold";
+    font-size: 13px;
+    color: $primary-color;
+  }
+
+  .border {
+    transform: translateX(-50px);
+  }
+}
+
+.date-box {
+  width: 52px;
+  height: 52px;
+  background-color: #e2e2e2;
+}
+
+.primary-color {
+  color: $primary-color;
+  font-family: "Myriad Pro Light";
+  b {
+    font-family: "Myriad Pro SemiBold";
+  };
+}

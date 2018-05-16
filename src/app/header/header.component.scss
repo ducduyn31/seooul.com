@@ -1,0 +1,28 @@
+@import "../../styles";
+
+.carousel-indicators{
+  li{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+  }
+}
+
+.vertical-text{
+  width: 1px;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+nav {
+  background-color: $primary-color;
+  color: #ffffff;
+  font-family: "Myriad Pro Light";
+  font-size: 18px;
+  padding: 0;
+  .logo-menu {
+    background-color: #ffffff;
+    width: 80px;
+  }
+}

@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Myriad Pro Light";
+  src: url("/assets/fonts/myriadpro-light.otf");
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("/assets/fonts/MyriadPro-Bold.otf");
+}
+
+@font-face {
+  font-family: "Myriad Pro SemiBold";
+  src: url("/assets/fonts/MyriadPro-BlackSemiCn.otf");
+}
+
+@font-face {
+  font-family: "Moonlight";
+  src: url("/assets/fonts/Moonlight.ttf");
+}
+
+$primary-color: #713e81;
+
+body {
+  overflow-x: hidden;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}

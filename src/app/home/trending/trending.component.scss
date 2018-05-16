@@ -1,0 +1,31 @@
+@import "../../../styles";
+
+.news-type {
+  font-family: "Myriad Pro Light";
+  font-size: 30px;
+  b {
+    font-family: "Myriad Pro Bold";
+  }
+}
+
+.list-group-item {
+  background-color: #f4f4f4;
+  width: 591px;
+  height: 171px;
+
+  p {
+    background-color: #ffffff;
+    width: 353px;
+    height: 88px;
+    font-family: "Myriad Pro Light";
+    font-size: 22px;
+    padding-left: 18px;
+    padding-right: 18px;
+    z-index: 1;
+  }
+  img {
+    width: 200px;
+    height: 120px;
+    left: 350px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../../styles";
+
+.news-type {
+  font-family: "Myriad Pro Light";
+  font-size: 30px;
+  b {
+    font-family: "Myriad Pro Bold";
+  }
+}
+
+.intro {
+  font-family: "Myriad Pro Light";
+  font-size: 24px;
+}
+
+.source {
+  font-size: 24px;
+}
+
+.news {
+  height: 290px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0;
+  img {
+    height: 290px;
+  }
+}

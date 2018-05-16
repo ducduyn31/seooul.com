@@ -1,0 +1,26 @@
+@import "../../styles";
+
+footer{
+  height: 268px;
+  background-color: $primary-color;
+  margin-top: 60px;
+  .logo p {
+    font-size: 33px;
+  }
+
+  .nav-link {
+    color: #ac96b5;
+    font-size: 20px;
+    font-family: "Myriad Pro Light";
+  }
+
+  .text-gold {
+    font-size: 19px;
+    color: #a57679;
+    font-family: "Myriad Pro Light";
+  }
+
+  .brands-shape {
+    margin-top: -35px;
+  }
+}

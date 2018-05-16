@@ -1,0 +1,60 @@
+@import "../../../styles";
+
+.news-type {
+  font-family: "Myriad Pro Light";
+  font-size: 45px;
+  b {
+    font-family: "Myriad Pro Bold";
+  }
+}
+
+.text-news {
+  font-family: "Myriad Pro Light";
+  font-size: 22px;
+}
+
+.media-news {
+  .list-group-item {
+    border: 0;
+    background-color: #f4f4f4;
+    font-family: "Myriad Pro Light";
+    color: #515151;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+
+    span {
+      color: #aeaeae;
+      margin-left: 10px;
+    }
+  }
+}
+
+.news-type-2 {
+  height: 100px;
+  .c-1, .c-2, .c-3 {
+    width: 33%;
+  }
+
+  .c-1 {
+    font-family: "Myriad Pro SemiBold", sans-serif ;
+    font-size: 40px;
+  }
+
+  .c-2 {
+    font-family: "Myriad Pro Bold";
+    font-size: 120px;
+  }
+
+  .c-3 {
+    font-family: "Myriad Pro Light";
+    font-size: 40px;
+  }
+}
+
+.description {
+  height: 100px;
+  font-family: "Myriad Pro Light", sans-serif;
+  font-size: 22px;
+}
